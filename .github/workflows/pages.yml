@@ -2,7 +2,7 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]   # or "master" if your default branch is master
   workflow_dispatch:
 
 permissions:
@@ -18,22 +18,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source (with submodules for themes)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: true     # fetch Hugo theme submodules
           fetch-depth: 0
 
-      - name: Setup Hugo (extended)
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.151.0'
-          extended: true
+          hugo-version: 'latest'
+          extended: true       # required for SCSS-based themes
 
-      - name: Build
+      # ↓ Only needed if your theme uses Tailwind, PostCSS, or ESBuild
+      - name: Setup Node.js (for Tailwind/PostCSS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install frontend dependencies
+        run: |
+          if [ -f package-lock.json ] || [ -f package.json ]; then
+            npm ci
+          fi
+
+      - name: Build Hugo site
         run: hugo --minify
 
-      - name: Upload artifact
+      - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
@@ -48,3 +60,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
