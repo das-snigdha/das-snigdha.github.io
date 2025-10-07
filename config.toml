@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My Website"
+theme = "barks"
+
+[params.head]
+author = "Snigdha Das"
+description = "Statistics • Bayesian • Teaching"
+keywords = ["statistics","bayesian","teaching"]
+
+[params.navigation]
+show_navigation = true
+
+[params.footer]
+show_footer = true
+
+[params.typography]
+title_font = "Bree Serif"
+body_font  = "Source Sans Pro"
+
+[params.colors]
+theme_color      = "#333333"
+background_color = "#fcfbf9"
+text_color       = "#333333"
+link_color       = "#60c17d"

@@ -1,0 +1,34 @@
+h3, h4, h5, h6 {
+    text-align: left;
+  }
+
+/* Remove leftover space where the page title used to be */
+/* Hide page titles when front matter has hide_title = true */
+.page-title,
+h1.page-title {
+  display: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+main a,
+.content a,
+.post a {
+  color: #800000 !important;
+  text-decoration: none;
+}
+
+
+/* Reduce spacing between paragraphs */
+main p,
+.content p,
+.post p {
+  margin-top: 0.6em;     /* default is around 1em */
+  margin-bottom: 0.6em;
+  line-height: 1.2;      /* tighter line spacing */
+}
