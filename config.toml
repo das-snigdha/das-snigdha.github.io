@@ -1,6 +1,6 @@
 baseURL = "http://das-snigdha.github.io/"
 languageCode = "en-us"
-title = "My Website"
+title = "Snigdha Das"
 theme = "barks"
 
 [params.head]

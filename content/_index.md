@@ -8,4 +8,4 @@ image: "/images/photo.jpg"
 
 <span style="font-size: 0.86em;">My research focuses on developing novel methodologies for efficient Bayesian computation, approximate Bayesian inference, and advancing survey methodology,  with applications in biomedicine and oral health.</span>  
 
-<span style="font-size: 0.86em;">Outside of work, I'm usually in the kitchen trying out new recipes, sketching in my notebook, or watching a movie on OTT!<span style="font-size: 0.9em;">
+<span style="font-size: 0.86em;">Outside of work, I'm usually in the kitchen trying out new recipes, sketching in my notebook, or watching a movie!<span style="font-size: 0.9em;">
