@@ -10,7 +10,7 @@ hide_title: true
 <span style="font-size: 0.86em; font-weight: bold; color: #800000;"> Deep generative conditional density regression for inference in complex surveys. </span>  
 <span style="font-size: 0.76em;"> **Snigdha Das**, Dipankar Bandyopadhyay, Debdeep Pati. (2025+). *In Preparation*.</span>
 
-<span style="font-size: 0.86em; font-weight: bold;"> [Scalable Efficient Inference in Complex Surveys through Targeted Resampling of Weights.](https://arxiv.org/abs/2404.13822) &nbsp; [<i class="ai ai-arxiv ai"></i>](https://arxiv.org/abs/2504.11636) &nbsp; [<i class="fab fa-github"></i>](https://github.com/das-snigdha/S-WLB) </span>     
+<span style="font-size: 0.86em; font-weight: bold;"> [Scalable Efficient Inference in Complex Surveys through Targeted Resampling of Weights.](https://arxiv.org/abs/2504.11636) &nbsp; [<i class="ai ai-arxiv ai"></i>](https://arxiv.org/abs/2504.11636) &nbsp; [<i class="fab fa-github"></i>](https://github.com/das-snigdha/S-WLB) </span>     
 <span style="font-size: 0.76em;">**Snigdha Das**, Dipankar Bandyopadhyay, Debdeep Pati. (2025+). *Submitted.*</span>
 
 
