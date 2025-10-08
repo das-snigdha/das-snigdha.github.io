@@ -20,7 +20,7 @@ enableRobotsTXT = true
     weight = 2
 [[menu.main]]
     name = "CV"
-    url  = "/cv.pdf"
+    url  = "/CV_Das.pdf"
     weight = 3
 [[menu.main]]
     name = "Teaching"
