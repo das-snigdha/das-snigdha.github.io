@@ -52,3 +52,11 @@ main p,
 h1.page-title:has(+ [data-hide-title="true"]) {
   display: none !important;
 }
+
+h2 {
+  margin-bottom: 0.8rem;  /* reduce space below h2 */
+}
+
+h3 {
+  margin-top: 1.3rem;     /* reduce space above h3 */
+}

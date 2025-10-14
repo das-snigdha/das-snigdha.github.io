@@ -4,11 +4,9 @@ hide_title: true
 ---
 
 ## Texas A&M University
-
 ### Course Instructor
 
 <span style="font-size: 0.86em;"> <b style="color:#800000;"> **STAT 302 -- Statistical Methods**</b>. (Fall 2024). Undergraduate-level course introducing probability distributions, inference and linear regression for biology majors.</span>  
-
 
 ### Guest Lecturer
 
