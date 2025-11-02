@@ -39,7 +39,7 @@ enableRobotsTXT = true
         author = "Snigdha Das"
         custom_css = "/custom.css"
         description = "Hi, I'm Snigdha"
-        keywords = ["materials science", "academic", "CEA", "PhD"]
+        keywords = ["statistics", "academic", "PhD"]
 
     [params.navigation]
         show_navigation = true
@@ -55,7 +55,7 @@ enableRobotsTXT = true
         theme_color = "#333333"
         background_color = "#fcfbf9"
         text_color = "#333333"
-        link_color = "#800000"
+        link_color = "#8b0000"
 
     [params.social]
         [params.social.email]
