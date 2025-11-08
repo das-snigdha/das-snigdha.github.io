@@ -19,7 +19,7 @@ main {
 main a,
 .content a,
 .post a {
-  color: #800000 !important;
+  color: #8b0000 !important;
   text-decoration: none;
 }
 
@@ -60,3 +60,67 @@ h2 {
 h3 {
   margin-top: 1.3rem;     /* reduce space above h3 */
 }
+
+/* Layout for contact info */
+.contact-container {
+  display: flex;
+  justify-content: center;   /* centers the two columns as a group */
+  align-items: flex-start;
+  gap: 3rem;                 /* space between Email and Office */
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 900px;          /* limits total width for a centered look */
+  padding: 0 4rem;           /* adds some inner side padding */
+}
+
+.contact-item {
+  flex: 1 1 45%; /* roughly half width */
+}
+
+.contact-icon {
+  color: #8b0000; /* TAMU maroon */
+  font-size: 0.8em;
+  margin-right: 0.4rem;
+  transform: translateY(10px); /* 👈 nudge down slightly */
+}
+
+.contact-item h3 {
+  display: inline-block;
+  color: #8b0000; /* TAMU maroon */
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  vertical-align: middle;
+}
+
+.contact-item p {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Responsive stacking for mobile */
+@media (max-width: 700px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-item {
+    flex: 1 1 100%;
+  }
+}
+
+/* Make navigation menu font smaller and balanced */
+.navbar a,
+nav a,
+.menu a {
+  font-size: 1.4rem;    /* smaller size */
+  letter-spacing: 0.4px; /* optional: adds nice spacing */
+}
+
+/* Make the existing navigation dots smaller and better aligned */
+nav ul li::before,
+nav ul li::after {
+  font-size: 0.65em;          /* 👈 reduce size (try 0.6–0.8) */
+  vertical-align: middle;    /* keep them centered with text */
+  margin: 0 0.0rem;         /* spacing between text and dot */
+  opacity: 0.85;              /* optional: slightly lighter */
+}
+
