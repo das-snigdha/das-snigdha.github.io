@@ -38,7 +38,7 @@ enableRobotsTXT = true
     [params.head]
         author = "Snigdha Das"
         custom_css = "/custom.css"
-        description = "Hi, I'm Snigdha"
+        description = "Statistics Ph.D. student at Texas A&M university"
         keywords = ["statistics", "academic", "PhD"]
 
     [params.navigation]
