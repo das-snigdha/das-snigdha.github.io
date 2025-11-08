@@ -81,7 +81,7 @@ h3 {
 }
 
 .contact-icon {
-  color: #8b0000; /* TAMU maroon */
+  color: #8b0000; /*  TAMU maroon */
   font-size: 0.8em;
   margin-right: 0.4rem;
   transform: translateY(9px); /* 👈 nudge down slightly */
@@ -131,7 +131,7 @@ nav ul li::after {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
 }
 
 .pub-item {
@@ -144,20 +144,20 @@ nav ul li::after {
 .pub-title {
   margin: 0 0 0.4rem 0;
   font-size: 1.15rem;
-  line-height: 1.5;
+  line-height: 1.1;
 }
 
 .pub-authors {
   margin: 0;
   color: #444;
-  font-size: 1rem;       /* slightly smaller than title */
-  line-height: 1.4;
+  font-size: 0.95rem;       /* slightly smaller than title */
+  line-height: 1.1;
 }
 
 .pub-venue {
   margin: 0.35rem 0 0.6rem 0;
   color: #434242;
-  font-size: 1rem;      /* smaller and lighter */
+  font-size: 0.95rem;      /* smaller and lighter */
 }
 
 .pub-links {
