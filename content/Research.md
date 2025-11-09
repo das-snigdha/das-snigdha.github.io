@@ -29,7 +29,7 @@ hide_title: true
 
   <article class="pub-item">
     <h3 class="pub-title">
-      Scalable Efficient Inference in Complex Surveys through Targeted Resampling of Weights
+      Scalable efficient inference in complex surveys through targeted resampling of weights
     </h3>
     <p class="pub-authors">
       <strong>Snigdha Das</strong>, Dipankar Bandyopadhyay, Debdeep Pati
