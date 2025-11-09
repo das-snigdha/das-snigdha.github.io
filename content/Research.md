@@ -38,12 +38,12 @@ hide_title: true
       <em>Submitted</em>, 2025+
     </p>
     <div class="pub-links">
+      <button class="pub-tag pub-abstract-toggle" data-target="abs-swlb">
+      Abstract
+      </button>
       <a class="pub-tag" href="https://arxiv.org/abs/2504.11636">arXiv</a>
       <a class="pub-tag" href="https://github.com/das-snigdha/S-WLB">Code</a>
       <!-- <a class="pub-tag" href="#">BibTeX</a> -->
-      <button class="pub-tag pub-abstract-toggle" data-target="abs-swlb">
-      Abstract
-    </button>
   </div>
 
   <!-- hidden abstract -->
@@ -64,12 +64,13 @@ hide_title: true
       <em>Biometrics</em>, 2025
     </p>
     <div class="pub-links">
+      <button class="pub-tag pub-abstract-toggle" data-target="abs-msim">
+      Abstract
+      </button>
       <a class="pub-tag" href="https://doi.org/10.1093/biomtc/ujaf105">DOI</a>
       <a class="pub-tag" href="https://arxiv.org/abs/2507.09057">arXiv</a>
       <a class="pub-tag" href="https://github.com/das-snigdha/BayesSPMSM">Code</a>
-      <button class="pub-tag pub-abstract-toggle" data-target="abs-msim">
-      Abstract
-    </button>
+      
   </div>
 
   <!-- hidden abstract -->
@@ -89,12 +90,12 @@ hide_title: true
       <em>Journal of Computational and Graphical Statistics</em>, 2024
     </p>
     <div class="pub-links">
+      <button class="pub-tag pub-abstract-toggle" data-target="abs-hdp">
+      Abstract
+      </button>
       <a class="pub-tag" href="https://doi.org/10.1080/10618600.2024.2388543">DOI</a>
       <a class="pub-tag" href="https://arxiv.org/abs/2304.09945">arXiv</a>
       <a class="pub-tag" href="https://github.com/das-snigdha/blockedHDP">Code</a>
-      <button class="pub-tag pub-abstract-toggle" data-target="abs-hdp">
-      Abstract
-    </button>
   </div>
 
   <!-- hidden abstract -->
