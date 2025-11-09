@@ -10,10 +10,10 @@ copyright = "&copy; Copyright 2025 Snigdha Das. Powered by the <a href=\"https:/
 enableRobotsTXT = true
 
 # Main menu
-[[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 2
+#[[menu.main]]
+#    name = "Home"
+#    url  = "/"
+#    weight = 1
 [[menu.main]]
     name = "Research"
     url  = "/research"
