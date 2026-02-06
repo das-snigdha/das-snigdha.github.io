@@ -15,6 +15,8 @@ hide_title: true
 
 ### Teaching Assistant
 
+<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 652 -- Statistics in Research II**</b>. (Spring 2026). Graduate-level course covering principles of experimental design, multiple regression, nonparametric methods and sample surveys. </span> 
+
 <span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 611 -- Statistical Inference**</b>. (Spring 2022). Graduate-level course on the theory of statistical inference. </span> 
-<br> 
+
 <span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 414 -- Mathematical Statistics I**</b>. (Fall 2021). Undergraduate-level course on probability distributions and inference for statistics majors. </span>  

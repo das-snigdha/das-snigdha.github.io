@@ -110,3 +110,4 @@ enableRobotsTXT = true
 
     [markup.highlight]
         style = 'dracula'
+
