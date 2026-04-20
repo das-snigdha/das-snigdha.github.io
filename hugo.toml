@@ -26,7 +26,7 @@ enableRobotsTXT = true
     name = "CV"
     url  = "/cv.pdf"
     weight = 4
-    [menu.main.params]
+    #[menu.main.params]
     target = "_blank"
 [[menu.main]]
     name = "Contact"
