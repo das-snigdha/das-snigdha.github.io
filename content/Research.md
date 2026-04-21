@@ -52,12 +52,25 @@ hide_title: true
       <a class="pub-tag" href="https://arxiv.org/abs/2504.11636">arXiv</a>
       <a class="pub-tag" href="https://github.com/das-snigdha/S-WLB">Code</a>
       <!-- <a class="pub-tag" href="#">BibTeX</a> -->
+      <button class="pub-tag pub-abstract-toggle" data-target="awards-swlb">
+      Awards
+      </button>
   </div>
 
   <!-- hidden abstract -->
   <div id="abs-swlb" class="pub-abstract">
     Survey data often arises from complex sampling designs, such as stratified or multistage sampling, with unequal inclusion probabilities. When sampling is informative, traditional inference methods yield biased estimators and poor coverage. Classical pseudo-likelihood based methods provide accurate asymptotic inference but lack finite-sample uncertainty quantification and the ability to integrate prior information. Existing Bayesian approaches, like the Bayesian pseudo-posterior estimator and weighted Bayesian bootstrap, have limitations; the former struggles with uncertainty quantification, while the latter is computationally intensive and sensitive to bootstrap replicates. To address these challenges, we propose the Survey-adjusted Weighted Likelihood Bootstrap (S-WLB), which resamples weights from a carefully chosen distribution centered around the underlying sampling weights. S-WLB is computationally efficient, theoretically consistent, and delivers finite-sample uncertainty intervals which are proven to be asymptotically valid. We demonstrate its performance through simulations and applications to nationally representative survey datasets like NHANES and NSDUH.
   </div>
+
+  <!-- hidden awards -->
+  <div id="awards-swlb" class="pub-abstract">
+  <ul>
+    <li>2025 ASA SRMS/GSS/SSS Student Paper Award (Honorable Mention).</li>
+    <li>2025 SETCASA Student Poster Award (Silver Prize).</li>
+  </ul>
+</div>
+
+
     
   </article>
 
@@ -104,11 +117,21 @@ hide_title: true
       <a class="pub-tag" href="https://doi.org/10.1080/10618600.2024.2388543">DOI</a>
       <a class="pub-tag" href="https://arxiv.org/abs/2304.09945">arXiv</a>
       <a class="pub-tag" href="https://github.com/das-snigdha/blockedHDP">Code</a>
+      <button class="pub-tag pub-abstract-toggle" data-target="awards-hdp">
+      Awards
+      </button>
   </div>
 
   <!-- hidden abstract -->
   <div id="abs-hdp" class="pub-abstract">
     Posterior computation in hierarchical Dirichlet process (HDP) mixture models is an active area of research in nonparametric Bayes inference of grouped data.  Existing literature almost exclusively focuses on the Chinese restaurant franchise (CRF) analogy of the marginal distribution of the parameters, which can mix poorly and has a quadratic complexity with the sample size. A recently developed slice sampler allows for efficient blocked updates of the parameters, but is shown to be statistically unstable in our article. We develop a blocked Gibbs sampler that employs a truncated approximation of the underlying random measures to sample from the posterior distribution of HDP, which produces statistically stable results, is highly scalable with respect to sample size, and is shown to have good mixing. The heart of the construction is to endow the shared concentration parameter with an appropriately chosen gamma prior that allows us to break the dependence of the shared mixing proportions and permits independent updates of certain log-concave random variables in a block. <em>En route</em>, we develop an efficient rejection sampler for these random variables leveraging piece-wise tangent-line approximations.
+  </div>
+
+  <!-- hidden awards -->
+  <div id="awards-hdp" class="pub-abstract">
+  <ul>
+    <li>2022 Joe Newton Poster Award (Bronze Prize), Conference on Advances in Data Science, TAMU.</li>
+  </ul>
   </div>
   </article>
 

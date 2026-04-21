@@ -209,6 +209,17 @@ nav ul li::after {
   cursor: pointer;
 }
 
+.pub-awards {
+  display: none;
+  margin-top: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  background: #faf7f2;
+  border-left: 3px solid #8b0000;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
 nav ul li a,
 nav ul li a:visited {
   border-bottom: none;
