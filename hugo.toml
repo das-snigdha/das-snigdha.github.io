@@ -77,6 +77,7 @@ enableRobotsTXT = true
         [params.social.google_scholar]
             name = "Google Scholar"
             class = "ai ai-google-scholar"
+            #class="fas fa-graduation-cap"
             url = "https://scholar.google.com/citations?hl=en&authuser=1&user=-Zd0uEMAAAAJ"
             weight = 3
         #[params.social.institution]

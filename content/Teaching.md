@@ -15,6 +15,10 @@ hide_title: true
 
 ### Teaching Assistant
 
+<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 608 -- Regression Analysis**</b>. (Summer 2026). Graduate-level course covering multiple, nonlinear, logistic and robust regression, principal component analysis, and analysis of covariance. </span> 
+
+<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 604 -- Statistical Computations**</b>. (Summer 2026). Graduate-level course on introduction to statistical computing and programming using R and Python. </span> 
+
 <span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 652 -- Statistics in Research II**</b>. (Spring 2026). Graduate-level course covering principles of experimental design, multiple regression, nonparametric methods and sample surveys. </span> 
 
 <span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 611 -- Statistical Inference**</b>. (Spring 2022). Graduate-level course on the theory of statistical inference. </span> 
