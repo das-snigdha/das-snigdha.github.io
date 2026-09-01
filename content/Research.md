@@ -7,19 +7,21 @@ hide_title: true
 
 ## Manuscripts &nbsp;&amp;&nbsp;&nbsp;Publications
 
-
+<div class="research-year">
+  <span>2026</span>
+</div>
 
 <div class="pub-list">
 
-  <article class="pub-item">
+  <article class="pub-item last-in-year">
     <h3 class="pub-title">
       Deep generative conditional density regression for inference in complex surveys
     </h3>
     <p class="pub-authors">
-      <strong>Snigdha Das</strong>, Dipankar Bandyopadhyay, Debdeep Pati
+      <a>Snigdha Das</a>, Dipankar Bandyopadhyay, Debdeep Pati
     </p>
     <p class="pub-venue">
-      <em>In preparation</em>, 2026+
+      <em>In preparation</em>
     </p>
     <div class="pub-links">
     <button class="pub-tag pub-abstract-toggle" data-target="abs-sgan">
@@ -35,15 +37,20 @@ hide_title: true
   </div>
   </article>
 
+  
+  <div class="research-year">
+  <span>2025</span>
+  </div>
+
   <article class="pub-item">
     <h3 class="pub-title">
       Scalable efficient inference in complex surveys through targeted resampling of weights
     </h3>
     <p class="pub-authors">
-      <strong>Snigdha Das</strong>, Dipankar Bandyopadhyay, Debdeep Pati
+      <a>Snigdha Das</a>, Dipankar Bandyopadhyay, Debdeep Pati
     </p>
     <p class="pub-venue">
-      <em>Submitted</em>, 2025+
+      <em>Submitted</em>
     </p>
     <div class="pub-links">
       <button class="pub-tag pub-abstract-toggle" data-target="abs-swlb">
@@ -74,15 +81,15 @@ hide_title: true
     
   </article>
 
-  <article class="pub-item">
+  <article class="pub-item last-in-year">
     <h3 class="pub-title">
       A monotone single index model for spatially referenced multistate current status data
     </h3>
     <p class="pub-authors">
-      <strong>Snigdha Das</strong>, Minwoo Chae, Debdeep Pati, Dipankar Bandyopadhyay
+      <a>Snigdha Das</a>, Minwoo Chae, Debdeep Pati, Dipankar Bandyopadhyay
     </p>
     <p class="pub-venue">
-      <em>Biometrics</em>, 2025
+      <em>Biometrics</em>
     </p>
     <div class="pub-links">
       <button class="pub-tag pub-abstract-toggle" data-target="abs-msim">
@@ -100,15 +107,19 @@ hide_title: true
   </div>
   </article>
 
+  <div class="research-year">
+  <span>2024</span>
+  </div>
+
   <article class="pub-item">
     <h3 class="pub-title">
       Blocked Gibbs sampler for hierarchical Dirichlet processes
     </h3>
     <p class="pub-authors">
-      <strong>Snigdha Das</strong>, Yabo Niu, Yang Ni, Bani K. Mallick, Debdeep Pati
+      <a>Snigdha Das</a>, Yabo Niu, Yang Ni, Bani K. Mallick, Debdeep Pati
     </p>
     <p class="pub-venue">
-      <em>Journal of Computational and Graphical Statistics</em>, 2024
+      <em>Journal of Computational and Graphical Statistics</em>
     </p>
     <div class="pub-links">
       <button class="pub-tag pub-abstract-toggle" data-target="abs-hdp">
