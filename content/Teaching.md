@@ -4,23 +4,79 @@ hide_title: true
 ---
 
 
-## Texas A&M University
-### Course Instructor
+<h2 class="teaching-institution">Texas A&amp;M University</h2>
 
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;"> **STAT 302 -- Statistical Methods**</b>. (Fall 2024). Undergraduate-level course introducing probability distributions, inference and linear regression for biology majors.</span>  
+<div class="teaching-row">
+  <div class="teaching-role">Course Instructor</div>
 
-### Guest Lecturer
+  <div class="teaching-courses">
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 302 – Statistical Methods</span>
+        <span class="course-term">Fall 2024</span>
+      </div>
+      <p>
+        Undergraduate-level course introducing probability distributions,
+        inference and linear regression for biology majors.
+      </p>
+    </div>
+  </div>
+</div>
 
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 605 -- Advanced Statistical Computations**</b>. (Spring 2024). Graduate-level course on Bayesian computation and optimization algorithms. Delivered two lectures on *Introduction to Hierarchical Dirichlet Processes*. </span>  
+<div class="teaching-row">
+  <div class="teaching-role">Guest Lecturer</div>
 
-### Teaching Assistant
+  <div class="teaching-courses">
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 605 – Advanced Statistical Computations</span>
+        <span class="course-term">Spring 2024</span>
+      </div>
+      <p>
+        Graduate-level course on Bayesian computation and optimization algorithms.
+        Delivered two lectures on <em>Introduction to Hierarchical Dirichlet Processes</em>.
+      </p>
+    </div>
+  </div>
+</div>
 
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 608 -- Regression Analysis**</b>. (Summer 2026). Graduate-level course covering multiple, nonlinear, logistic and robust regression, principal component analysis, and analysis of covariance. </span> 
-
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 604 -- Statistical Computations**</b>. (Summer 2026). Graduate-level course on introduction to statistical computing and programming using R and Python. </span> 
-
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 652 -- Statistics in Research II**</b>. (Spring 2026). Graduate-level course covering principles of experimental design, multiple regression, nonparametric methods and sample surveys. </span> 
-
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 611 -- Statistical Inference**</b>. (Spring 2022). Graduate-level course on the theory of statistical inference. </span> 
-
-<span style="font-size: 0.86em;"> <b style="color:#8b0000;">**STAT 414 -- Mathematical Statistics I**</b>. (Fall 2021). Undergraduate-level course on probability distributions and inference for statistics majors. </span>  
+<div class="teaching-row">
+  <div class="teaching-role">Teaching Assistant</div>
+  <div class="teaching-courses">
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 608 – Regression Analysis</span>
+        <span class="course-term">Summer 2026</span>
+      </div>
+      <p>Graduate-level course covering multiple, nonlinear, logistic and robust regression, principal component analysis, and analysis of covariance.</p>
+    </div>
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 604 – Statistical Computations</span>
+        <span class="course-term">Summer 2026</span>
+      </div>
+      <p>Graduate-level course introducing statistical computing and programming using R and Python.</p>
+    </div>
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 652 – Statistics in Research II</span>
+        <span class="course-term">Spring 2026</span>
+      </div>
+      <p>Graduate-level course covering principles of experimental design, multiple regression, nonparametric methods, and sample surveys.</p>
+    </div>
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 611 – Statistical Inference</span>
+        <span class="course-term">Spring 2022</span>
+      </div>
+      <p>Graduate-level course on the theory of statistical inference.</p>
+    </div>
+    <div class="teaching-course">
+      <div class="course-header">
+        <span class="course-name">STAT 414 – Mathematical Statistics I</span>
+        <span class="course-term">Fall 2021</span>
+      </div>
+      <p>Undergraduate-level course on probability distributions and inference for statistics majors.</p>
+    </div>
+  </div>
+</div>
