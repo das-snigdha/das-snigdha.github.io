@@ -534,3 +534,17 @@ main {
   footer {
     border-top: 1px solid #ddd8d2;
   }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+        border-top: 1px solid #ddd8d2;
+        border-bottom: 1px solid #ddd8d2;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page-image {
+    margin-bottom: 1.5rem;
+  }
+}
