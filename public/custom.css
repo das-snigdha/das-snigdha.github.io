@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap');
+
+.intro-text {
+  text-align: left;
+}
+
 .intro-text p {
-  line-height: 1.4;
-  margin-bottom: 1.02rem;
+  margin: 0 0 1.4rem;
+  line-height: 1.6;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
 }
 
 
 h3, h4, h5, h6 {
     text-align: left;
+    font-weight: 600;
   }
 
 /* Remove leftover space where the page title used to be */
@@ -25,7 +36,7 @@ main {
 main a,
 .content a,
 .post a {
-  color: #8b0000 !important;
+  color: #7b4410   !important;
   text-decoration: none;
 }
 
@@ -62,12 +73,14 @@ h1.page-title:has(+ [data-hide-title="true"]) {
 h2 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;  
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #655c4d;
 }
-
-
 
 h3 {
   margin-top: 1.1rem;     /* reduce space above h3 */
+  font-weight: 600;
 }
 
 /* Layout for contact info */
@@ -87,7 +100,7 @@ h3 {
 }
 
 .contact-icon {
-  color: #8b0000; /*  TAMU maroon */
+  color: #9b6b3b  ; /*  TAMU maroon */
   font-size: 0.86em;
   margin-right: 0.3rem;
   transform: translateY(8.5px); /* 👈 nudge down slightly */
@@ -98,6 +111,8 @@ h3 {
   font-weight: 700;
   margin-bottom: 0.2rem;
   vertical-align: middle;
+  font-weight: 600;
+  color: #655c4d;
 }
 
 .contact-item p {
@@ -119,19 +134,18 @@ h3 {
 .navbar a,
 nav a,
 .menu a {
-  font-size: 1.4rem;    /* smaller size */
+  font-size: 1.2rem;    /* smaller size */
   letter-spacing: 0.4px; /* optional: adds nice spacing */
 }
 
 /* Make the existing navigation dots smaller and better aligned */
 nav ul li::before,
 nav ul li::after {
-  font-size: 0.65em;          /* 👈 reduce size (try 0.6–0.8) */
-  vertical-align: middle;    /* keep them centered with text */
-  margin: 0 0.0rem;         /* spacing between text and dot */
-  opacity: 0.85;              /* optional: slightly lighter */
+  font-size: 0em;
+  vertical-align: middle;
+  margin: 0 -0.25rem;
+  opacity: 0.7;
 }
-
 
 .pub-list {
   margin-top: 2rem;
@@ -149,8 +163,10 @@ nav ul li::after {
 
 .pub-title {
   margin: 0 0 0.4rem 0;
-  font-size: 1.16rem;
+  font-size: 1.1rem;
   line-height: 1.3;
+  font-weight: 520;
+  color: #655c4d;
 }
 
 .pub-authors {
@@ -178,8 +194,8 @@ nav ul li::after {
 
 .pub-tag {
   display: inline-block;
-  border: 1px solid #8b0000;
-  color: #8b0000;
+  border: 1px solid     #9b6b3b  ;
+  color: #9b6b3b  ;
   padding: 0.05rem 0.4rem;
   border-radius: 2px;
   font-size: 0.8rem;
@@ -194,7 +210,7 @@ nav ul li::after {
 .pub-tag:visited:hover,
 .pub-tag:visited:focus,
 .pub-tag:visited:active {
-  background: #8b0000;
+  background: #9b6b3b  ;
   color: #fcfbf9 !important;  /* force white text */
 }
 
@@ -202,8 +218,8 @@ nav ul li::after {
   display: none;
   margin-top: 0.6rem;
   padding: 0.6rem 0.75rem;
-  background: #f9f4f4;
-  border-left: 3px solid #8b0000;
+  background: #f8f2ed;
+  border-left: 3px solid     #9b6b3b  ;
   border-radius: 3px;
   font-size: 0.96rem;
 
@@ -223,24 +239,298 @@ nav ul li::after {
   cursor: pointer;
 }
 
-
-nav ul li a,
-nav ul li a:visited {
+.pub-item.last-in-year {
   border-bottom: none;
-  box-shadow: none;
-  text-decoration: none;
+  padding-bottom: 0rem;
 }
 
-/* stays on the active page */
-nav ul li.active a {
-  box-shadow: inset 0 -3px 0 #8b0000;
-  color: #8b0000;
-  padding-bottom: 0px;
+
+
+/* Keep your existing navigation dots settings */
+nav ul li::before,
+nav ul li::after {
+  font-size: 0em;
+  vertical-align: middle;
+  margin: 0 -0.25rem;
+  opacity: 0.7;
 }
 
-/* hover for others */
+/* Navigation links */
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus {
+  box-shadow: none !important;
+  text-decoration: none !important;
+  outline: none;
+  border-bottom: 1px solid transparent !important;
+  padding-bottom: 3px;
+}
+
+/* Current page */
+nav ul li.active a,
+nav ul li.active a:visited,
+nav ul li.active a:hover {
+  color: #9b6b3b !important;
+  border-bottom: 1.5px solid #9b6b3b !important;
+}
+
+/* Hover over a different page */
 nav ul li:not(.active) a:hover {
-  box-shadow: inset 0 -3px 0 #8b0000;
-  color: #8b0000;
-  padding-bottom: -1px;
+  color: #9b6b3b !important;
+  border-bottom: 1.5px solid #9b6b3b !important;
 }
+
+/* Completely remove Barks' default nav hover effect */
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+/* My custom hover */
+nav ul li:not(.active) a:hover {
+  color: #9b6b3b !important;
+  border-bottom: 1.5px solid #9b6b3b !important;
+}
+/* Current page */
+nav ul li.active a {
+  color: #9b6b3b !important;
+  border-bottom: 1.5px solid #9b6b3b !important;
+}
+
+
+/* Year divider for research publications */
+.research-year {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0.5rem 0 0.5rem;
+  color: #8f8a83;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.research-year::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e3e1dd;
+}
+
+
+/* ============================================
+   News
+   ============================================ */
+
+/* Year divider — same style as Research */
+.news-year {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 1.2rem 0 1rem;
+  color: #8f8a83;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.news-year::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e3e1dd;
+}
+
+
+/* Individual news rows */
+.news-entry {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 10px;
+  align-items: start;
+  padding: 0.6rem 0;
+}
+
+/* Month box */
+.news-month {
+  color: #9b6b3b;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-top: 2px;
+}
+
+/* News text */
+.news-content {
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .news-entry {
+    grid-template-columns: 55px 1fr;
+    gap: 14px;
+  }
+
+  .news-month {
+    padding: 3px 8px;
+    font-size: 0.82rem;
+  }
+}
+
+/* Use News-page typography for page content only */
+main,
+main p,
+main li,
+main a,
+main button {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+main,
+main p,
+main li,
+main a,
+main button {
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 1rem;
+}
+
+
+/* ==========================
+   Teaching page
+   ========================== */
+
+   .teaching-institution {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 30px 0 30px;
+    font-size: 1.2rem;
+    font-weight: 520;
+  }
+  
+  .teaching-institution::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd9d4;
+  }
+  
+  main h2.teaching-institution {
+    margin-top: 30px !important;
+    color: #655c4d;
+  }
+  
+  /* Each teaching category */
+  
+  .teaching-row {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    column-gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  
+  /* Course Instructor / Guest Lecturer / TA */
+  
+  .teaching-role {
+    color: #7d7467;
+    font-size: 1rem;
+    padding-top: 2px;
+  }
+  
+  
+  /* Right-hand column */
+  
+  .teaching-courses {
+    min-width: 0;
+  }
+  
+  
+  /* Individual course */
+  
+  .teaching-course {
+    margin-bottom: 15px;
+  }
+  
+  /* Teaching page: reduce space before footer */
+  .teaching-course:last-child {
+    margin-bottom: 0;
+  }
+  
+  .teaching-course:last-child p {
+    margin-bottom: 0;
+  }
+main {
+  padding-bottom: 1.5rem;
+}
+.teaching-row:last-child {
+  margin-bottom: 15px;
+}
+  
+  /* Course title + semester */
+  
+  .course-header {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1px 10px;
+    margin-bottom: 5px;
+  }
+  
+  .course-name {
+    color: #9b6b3b;
+    font-weight: 600;
+  }
+  
+  .course-term {
+    color: #7d7467;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+  
+  
+  /* Description */
+  
+  .teaching-course p {
+    margin: 0;
+    line-height: 1.45;
+  }
+  
+  
+  /* Mobile */
+  
+  @media only screen and (max-width: 700px) {
+  
+    .teaching-institution {
+      margin-bottom: 35px;
+    }
+  
+    .teaching-row {
+      grid-template-columns: 1fr;
+      row-gap: 12px;
+      margin-bottom: 38px;
+    }
+  
+    .teaching-role {
+      margin-bottom: 4px;
+    }
+  
+    .teaching-course {
+      margin-bottom: 25px;
+    }
+  }
+
+  
+
+  footer {
+    border-top: 1px solid #ddd8d2;
+  }
