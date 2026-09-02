@@ -48,8 +48,8 @@ enableRobotsTXT = true
     [params.head]
         author = "Snigdha Das"
         custom_css = "/custom.css"
-        description = "Postdoctoral Associate in Biostatistics at Yale university"
-        keywords = ["statistics", "academic", "PhD"]
+        description = "Postdoctoral Associate in Biostatistics at Yale University"
+        keywords = ["Biostatistics", "Statistics", "Academic", "PhD"]
 
     [params.navigation]
         show_navigation = true
